@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: pink url("kitten.webp") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.block {
+  width: 95%;
+  margin: 0 auto;
+  padding: 5%;
+  border-radius: 8px;
+  line-height: 24px;
+  opacity: 0.8;
+  font-size: 20.8px;
+  background-color: #ffc691;
+  border: 1px solid #9d5716;
+}
+.block:nth-child(even) {
+  background-color: #ffe3c8;
+}
+
+@media only screen and (min-width: 600px) {
+  .block {
+    width: 46%;
+    margin: 1%;
+    padding: 4%;
+    font-size: 1.2rem;
+    font: 12px/1.5 "Arial", sans-serif;
+  }
+  .block:nth-child(even) {
+    background-color: #8b623b;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .block {
+    width: 30%;
+    font-size: 1rem;
+  }
+  .block:nth-child(even) {
+    background-color: #754212;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .block {
+    margin: 0;
+    padding: 1%;
+    width: 12%;
+    font-size: 1rem;
+  }
+  .block:nth-child(even) {
+    background-color: #aa896a;
+  }
+}/*# sourceMappingURL=style.css.map */

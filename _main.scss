@@ -1,0 +1,18 @@
+$size: 16px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-size: $size;
+}
+
+body {
+    background: pink url("kitten.webp") no-repeat center center fixed;
+    background-size: cover;
+    font-size: $size;
+}
